@@ -1,0 +1,339 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    body{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 200px;
+    
+    
+    }
+    
+    
+    
+    #titulo_guitarreando{
+    
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    
+    
+    
+    }
+    
+    
+    #container_navbar{
+    
+    padding: 50px;
+    
+    
+    }
+    
+    
+    .parrafo_guitarras_criollas{
+    
+    text-align: center;
+    font-size: 35px;
+    padding-top: 35px;
+    color: blue;
+    padding-bottom: 30px;
+    
+    
+    
+    }
+    
+    #section_guitarras{
+    
+    text-align: center;
+    width: 100%;
+    
+    
+    }
+    
+    .foto_guitarras{
+    
+    text-align: center;
+    width: 350px;
+    
+    }
+    
+    
+    .boton_comprar_criollas{
+    
+    padding: 5px;
+    margin-left: 250px;
+    margin-bottom: 35px;
+    
+    }
+    
+    .parrafo_guitarras_electricas{
+    
+    
+        text-align: center;
+        font-size: 35px;
+        padding-top: 35px;
+        color: blue;
+        padding-bottom: 30px;
+    
+    }
+    
+    .footer{
+    
+    width: 100vw;
+    text-align: center;
+    border: solid black 1px;
+    background-color: lightgray;
+    padding: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    }
+    
+    .redes{
+    
+    width: 50px;
+    height: 50px;
+    }
+    
+    
+    .parrafo_contacto{
+    
+        text-align: center;
+        font-size: 35px;
+        padding-top: 35px;
+        color: blue;
+        padding-bottom: 30px;
+    
+    
+    }
+    
+    #parrafo_2_sobrenosotros{
+    
+    font-size: 30px;
+    text-align: center;
+    margin-top: 140px;
+    
+    
+    }
+    
+    #foto_contacto{
+    
+    width: 400px;
+    height: 350px;
+    
+    
+    
+    
+    }
+    
+    #container_contacto{
+    
+    justify-content: center;
+    width: 100%;
+    border: solid black 1px;
+    }
+    
+    
+    #foto_sobrenosotros{
+    
+    width: 600px;
+    height: 400px;
+    
+    
+    }
+    
+    #parrafo_2_contacto{
+    
+    
+        font-size: 30px;
+    text-align: center;
+    margin-top: 140px;
+    
+    }
+    
+    #container_sobrenosotros{
+    
+    justify-content: center;
+    width: 100%;
+    border: solid black 1px;
+    
+    }
+    
+    .parrafo_sobrenosotros{
+    
+        text-align: center;
+        font-size: 35px;
+        padding-top: 35px;
+        color: blue;
+        padding-bottom: 30px;
+    
+    }
+    
+    .parrafo_dondeestamos{
+    
+    
+        text-align: center;
+        font-size: 35px;
+        padding-top: 35px;
+        color: blue;
+        padding-bottom: 30px;
+    
+    }
+    
+    .ubicacion{
+    
+    text-align: center;
+    
+    
+    }
+    
+    
+    
+    /* MEDIA QUERIES SECCION "CONTACTO" */
+    
+    
+    @media (max-width:1400px) {
+        
+    #foto_contacto{
+    
+        display: none;
+    
+    }
+    
+    .parrafo_contacto{
+    
+    font-size: 30px;
+    
+    }
+    
+    #parrafo_2_contacto{
+    
+    font-size: 25px;
+    
+    
+    }
+    
+    #container_contacto{
+    
+    border: none;
+    
+    }
+    
+    
+    }
+    
+    @media (max-width:768px){
+    
+    .parrafo_contacto{
+    
+    font-size: 25px;
+    
+    }
+    
+    #parrafo_2_sobrenosotros{
+    
+    font-size: 20px;
+    margin-top: 0;
+    
+    }
+    
+    
+    }
+    
+    
+    
+    
+    /*MEDIA QUERIES SECCION "SOBRE NOSOTROS"*/
+    
+    @media (max-width:1400px){
+    
+    #parrafo_2_sobrenosotros{
+    
+        font-size: 20px;
+        margin-top: 120px;
+    
+    
+    }
+    
+    #foto_sobrenosotros{
+    
+    width: 500px;
+    height: 300px;
+    
+    
+    }
+    
+    #container_sobrenosotros{
+    
+    border: none;
+    margin-top: 50px;
+    
+    }
+    
+    
+    
+    }
+    
+    @media (max-width:768px){
+    
+    #parrafo_2_sobrenosotros{
+    
+    margin-top: 0px;
+    
+    
+    
+    }
+    
+    
+    
+    
+    #foto_sobrenosotros{
+    
+        display: none;
+    
+    
+    }
+    
+    
+    
+    }
+    
+ #container_dondeestamos{
+
+
+
+border: solid black 1px;
+text-align: center;
+padding: 150px;
+ }
+
+
+
+ #parrafo_2_dondeestamos{
+
+    font-size: 30px;
+    text-align: center;
+margin-top: 100px;
+
+
+ }
+    
+
+    
+
+    
+    
+    
+    
+    
+    
